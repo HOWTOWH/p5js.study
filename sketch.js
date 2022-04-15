@@ -50,7 +50,7 @@ let pc = pr + pg + pb;
 
     //fill(terrain[x][y]+100, terrain[x][y]+60,150,100); //색상
     for (var x = 0; x < cols; x++) {
-      fill(terrain[x][y]+70, terrain[x][y]+50, terrain[x][y]+255);//변형된 색상
+      fill(terrain[x][y]+210, terrain[x][y]+210, terrain[x][y]+255);//변형된 색상
       vertex(x * scl, y * scl, terrain[x][y]);
       vertex(x * scl, (y + 1) * scl, terrain[x][y + 1]);
     }
